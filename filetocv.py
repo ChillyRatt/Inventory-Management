@@ -1,7 +1,7 @@
 import os
 import csv
 #file to 2d array:
-folderPath = r'C:\Users\chill\Downloads\Invertory'
+folderPath = r'/workspaces/Inventory-Management/Invertory'
 def getdir(dir):
     fileNames = os.listdir(dir)
     fileNameList = []
